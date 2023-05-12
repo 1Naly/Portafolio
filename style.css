@@ -1,0 +1,248 @@
+
+*{
+   background: #F3F5FC;
+   /*font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 150%; 
+}
+.alura{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 15%;
+    padding: 1%;
+      
+}
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.inputTexto{
+    border: none; /*sin borde*/
+    color: #0a3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+::placeholder {color:#0a3871;}
+.inputTexto:focus{ /*para quitar el contorno es el focus*/
+    outline: none;
+}
+.mensajeinfo{
+    background: white;
+    background-image: url(images/Muneco.png);
+    background-repeat: no-repeat;/*Para solo 1 imagen anterior*/
+    border: none;
+    border-radius: 24px;
+    color:#0a3871;
+    margin-left: auto;
+    margin-top: auto;
+    background-position: center;
+}
+.mensajeinfo:focus{
+    outline: none;
+}
+
+.Botones    {
+    display: flex;
+    margin-top: 18px;
+    
+}
+.info02{
+    color:#495057;
+    font-size: 17px;
+}
+.BotonEncriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+.BotonDesencriptar{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+.BotonCopiar{
+   border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor:pointer;
+    height: 67px;
+    margin-left: 1.5rem;
+    margin-top: auto;
+    position: absolute;
+    width: 336px;
+}
+
+/*Sin ayuda a verificar*/
+.nimensaje{
+    /* Ningún mensaje fue encontrado */
+    width: 336px;
+    height: 58px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    /*padding: auto;*/
+    line-height: 120%;
+    /* or 29px */
+    text-align: center;
+    /* Gray/gray-500 */
+    color: #343A40;
+    /* Inside auto layout */
+    flex:content;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: auto;
+    background: white;
+    padding-top: 1rem;
+
+}
+.msjIngTxt{
+   /* Ingresa el texto que desees encriptar o desencriptar. */
+    width: 336px;
+    height: 48px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 24px */
+    text-align: center;
+    /* Gray/gray-400 */
+    color: #495057;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: auto;
+    background: white;
+    padding-bottom: 1rem;
+
+}
+.mensajeYTxt{
+    background: white;
+
+}
+
+
+@media screen and (max-width:768px){
+    .alura{
+        position: absolute;
+        left: 5.21%;
+        right: 90.74%;
+        top: 6.25%;
+        bottom: 89.8%;
+    }
+    .inputTexto{
+        /*position: absolute;*/
+        margin-top: 240px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 150%;
+    }
+    .info02{
+        width: 205px;
+        height: 18px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .Botones{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 24px;
+        
+        width: 688px;
+        height: 67px;
+        left: 40px;
+        top: 870px;
+    }
+    
+    .mensajeinfo{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 32px;
+        gap: 32px;
+
+        position: absolute;
+        width: 688px;
+        height: 343px;
+        left: 40px;
+        top: 1001px;
+        background: #FFFFFF;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 32px;
+    }
+
+    .nimensaje {
+        display: flex;
+        flex-direction: column;
+        padding: 32px;
+        gap: 32px;
+
+        position: absolute;
+        width: 688px;
+        height: 133px;
+        left: 40px;
+        top: 1001px;
+        background: #FFFFFF;
+        
+        border-radius: 32px;
+    }
+    .msjIngTxt {
+        display: flow-root;
+        position: absolute;
+        width: 700px;
+        height: 1px;
+        left: 75px;
+        top: 1070px;
+        background: #FFFFFF;
+        border-radius: 32px;
+    }
+    .BotonCopiar{
+        box-sizing: border-box;
+        flex-direction: row;
+        align-items: flex-start;
+        top:1325px;
+        left:100px;
+        gap: 8px;
+
+        width: 624px;
+        height: 67px;
+        border-left: none;
+
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+}

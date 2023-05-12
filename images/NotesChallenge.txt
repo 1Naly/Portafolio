@@ -1,0 +1,226 @@
+/* Logo */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+
+position: absolute;
+width: 120px;
+height: 48px;
+left: 40px;
+top: 40px;
+
+height: 48px;
+width: 120px;
+left: 40px;
+top: 40px;
+border-radius: 0px;
+
+
+/* Muñeco */
+
+
+position: absolute;
+width: 336px;
+height: 304px;
+left: 1032px;
+top: 283px;
+
+height: 304px;
+width: 336px;
+left: 1032px;
+top: 283px;
+border-radius: 0px;
+
+
+/* Frame 5 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 336px;
+height: 122px;
+left: 1032px;
+top: 619px;
+
+height: 122px;
+width: 336px;
+left: 1032px;
+top: 619px;
+border-radius: 0px;
+
+
+/* Frame 1 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 229px;
+height: 18px;
+left: 240px;
+top: 851px;
+
+height: 18px;
+width: 229px;
+left: 240px;
+top: 851px;
+border-radius: 0px;
+
+
+/* Frame 3 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 680px;
+height: 67px;
+left: 240px;
+top: 885px;
+
+height: 67px;
+width: 680px;
+left: 240px;
+top: 885px;
+border-radius: 0px;
+
+/* Ingrese el texto aqui */
+
+
+position: absolute;
+width: 577px;
+height: 48px;
+left: 240px;
+top: 168px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+/* identical to box height, or 48px */
+
+
+/* Dark blue/dark-blue-300 */
+
+color: #0A3871;
+
+COLOR
+font-family: Inter;
+font-size: 32px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+
+Contenido
+Ingrese el texto aqui
+
+propiedades
+height: 48px;
+width: 577px;
+left: 240px;
+top: 168px;
+border-radius: nullpx;
+
+
+/* Rectangle 1 */
+
+
+position: absolute;
+width: 400px;
+height: 944px;
+left: 1000px;
+top: 40px;
+
+/* White */
+
+background: #FFFFFF;
+/* shadow */
+
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+
+box-shadow: 0px 24px 32px -8px #00000014;
+
+color
+background: #FFFFFF;
+
+propiedades
+height: 944px;
+width: 400px;
+left: 1000px;
+top: 40px;
+border-radius: 32px;
+
+
+/* Button */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+position: absolute;
+width: 336px;
+height: 67px;
+left: 1032px;
+top: 885px;
+
+/* Dark blue/dark-blue-300 */
+
+border: 1px solid #0A3871;
+border-radius: 24px;
+
+borde
+border: 1px solid #0A3871
+
+color
+background: #0A3871;
+
+propiedades
+height: 67px;
+width: 336px;
+left: 1032px;
+top: 885px;
+border-radius: 24px;
+padding: 24px;
+
+propiedades de componente
+Color="Light blue";
+State="Normal";
+
+
+
+
