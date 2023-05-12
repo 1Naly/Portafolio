@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width"> 
+        <title>Encriptador Alura</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="alura">
+                <h1><img src="images/Logo.png" alt="Letra *a* de Alura"></h1>
+                <nav>
+                    
+                </nav>
+            </div>
+
+        </header>
+
+        <main>
+            <section class="principal">
+                <label for="mensaje"></label>
+                <textarea cols="30" rows="10"id="mensaje"class="inputTexto" placeholder="Ingrese Texto aquí"></textarea>      
+                <div class="info02">
+                    <p class="info">&#128712; Solo letras minúsculas y sin acento</p>
+                </div>
+                <div class="Botones">
+                    
+                    <input id = "BoEncrip" type="button" value="Encriptar" class="BotonEncriptar" onclick="btnEncriptar()">
+                    <input id = "BoDescrip" type="button" value="Desencriptar" class="BotonDesencriptar" onclick="btnDesncriptar()">
+                
+                </div>
+            </section>
+            <section>
+                        <div class="Mensajencripta">
+                            <textarea id = "mensajeencriptado" class="mensajeinfo" cols="20" rows="10"></textarea>  
+                            <div>
+                                <input id="btnCopia"type="button" value="Copiar" class="BotonCopiar" onclick="btnCopiar()" style="display: none">   
+                            </div>  
+                            <div class="mensajeYTxt">
+                                <legend  id="niMsj"class="nimensaje">Ningún mensaje fue encontrado</legend>
+                                <legend id="inTxt" class="msjIngTxt">Ingresa el texto que desees encriptar o desencriptar</legend>
+                            </div>
+                        </div>
+                    
+            </section>
+
+
+        </main>
+        <footer>
+
+            <p class="Copyright">&copy Copyright Encriptador de Texto - 2023 Challenge One 5 M.C.</p>
+
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
